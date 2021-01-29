@@ -1,31 +1,104 @@
 
+html {
+    font-size: 20px;
+}
 
-.tabs {
+body {
+    
+    color:rgb(29, 36, 77);
+    font: 300 100%/1.5 'Work Sans', sans-serif;
+}
+
+main {
+    hyphens: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+}
+
+footer {
+    font-size: x-small;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#logo {
+    filter: invert(1);
+    max-height: 250px;
+    max-width: 95%;
+}
+
+div {
+    padding: 4rem 0;
+    border-bottom: 1px dashed #9599a9;
+}
+
+h1 h2 {
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+li {
+    list-style-type: none;
+}
+
+#nav-position {
+    position: fixed;
+    top: 1rem;
+    left: 1.5rem;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.nav {
     list-style-type: none;
     display: inline-block;
-    margin: 0 10px 0 10px;
+    margin: 10px 16px 10px 16px;
+    letter-spacing: .25rem;
 }
 
-.tabs:link {
-    color: white;
-}
-
-.tabs:visited {
-    color: white;
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(29, 36, 77);
 }
 
 a:hover {
     color: rgb(248, 206, 19);
 }
 
-#article-arctic {
-    background-image: url(../images/protect-the-arctic.jpg);
-    height: 500px;
-    width: 800px;
+#header-block {      /* sticky white background for header when scrolling */
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 135px;
+    height: 70px;
+    padding: 30px;
+    border-bottom: transparent;
+    border-radius: 5px;
 }
 
-#article-pow {
-    background-image: url(../images/keep-paris.jpg) center / cover;
-    height: 500px;
-    width: 800px;
+.container {
+    display: inline-block;
+    height: 200px;
+    text-align: center;
 }
+
+.pic-links {
+    height: 280px;
+    box-shadow:  0 0 8px 2px rgb(168, 168, 168);
+    border-radius: 3px;
+}
+
+#keep-paris:hover {
+    opacity: 0.75;
+}
+
+ 
