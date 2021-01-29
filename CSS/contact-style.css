@@ -1,0 +1,82 @@
+body {
+    margin: 1rem;
+    color:rgb(29, 36, 77);
+    font: 300 100%/1.5 'Work Sans', sans-serif;
+}
+
+form {
+    width: 40%;
+}
+
+fieldset {
+    text-align: center;
+    border-radius: 10px;
+    background-color:silver;
+    border: transparent;
+}
+
+input {
+    border-radius: 4px;
+}
+
+header {
+    background: url(../images/header-img-2.png) center / cover no-repeat;
+    background-blend-mode: multiply;
+    height: 250px;
+    padding: 2vh 1rem;
+    margin: -1rem -1rem 1rem;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+nav {
+    width: 70vh;
+    margin: auto;
+}
+
+#nav-position {
+    position: fixed;
+    right: 1re;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+fieldset {
+    padding: 5px;
+    margin: 50px;
+}
+
+.tabs {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.tabs:link {
+    color: white;
+}
+
+.tabs:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(248, 206, 19);
+}
+
+#name {
+   
+}
+
+button {
+    width: 10vh;
+    margin: auto;
+    position: center;
+}

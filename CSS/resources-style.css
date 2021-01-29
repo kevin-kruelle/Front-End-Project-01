@@ -1,0 +1,31 @@
+
+
+.tabs {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.tabs:link {
+    color: white;
+}
+
+.tabs:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(248, 206, 19);
+}
+
+#article-arctic {
+    background-image: url(../images/protect-the-arctic.jpg);
+    height: 500px;
+    width: 800px;
+}
+
+#article-pow {
+    background-image: url(../images/keep-paris.jpg) center / cover;
+    height: 500px;
+    width: 800px;
+}
