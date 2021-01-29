@@ -87,8 +87,28 @@ a:hover {
 
 .container {
     display: inline-block;
-    height: 200px;
+    height: auto;
     text-align: center;
+}
+
+#full-screen {
+    width: 1000px;
+    background-image: url(../images/covid-from-space.jpg);
+}
+
+#full-screen:hover {
+    width: 1000px;
+    background-image: url(../images/covid-from-space.jpg);
+    opacity: 0.90;
+}
+
+#full-screen-box {
+    display: inline-block;
+    height: 20%;
+    width: 400px;
+    background-color: rgb(244, 249, 252);
+    border: transparent;
+    border-radius: 2px;
 }
 
 .pic-links {
