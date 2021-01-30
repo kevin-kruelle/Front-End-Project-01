@@ -23,7 +23,7 @@ h1, h2, h3 {
     position: sticky;
     top: 0;
     left: 0;
-    height: 2px;
+    height: 20px;
     padding: 30px;
     border-bottom: transparent;
 }
@@ -34,6 +34,10 @@ header {
     background: url(../images/header-img-2.png) center / cover;
     background-blend-mode: inherit;
     height: 100vh;
+}
+
+footer {
+    font-size: x-small;
 }
 
 
@@ -172,7 +176,7 @@ a:hover {
      border-radius: 8px;
      background-color: rgb(255, 255, 255);
      box-shadow: inset 0 0 5px 5px rgb (269, 269, 269);
-     color: rgb(29, 36, 77)
+     color: rgb(29, 36, 77);
      text-align: center;
  }
 

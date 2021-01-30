@@ -4,59 +4,32 @@ body {
     font: 300 100%/1.5 'Work Sans', sans-serif;
 }
 
-form {
-    width: 40%;
-}
-
-fieldset {
-    text-align: center;
-    border-radius: 10px;
-    background-color:silver;
-    border: transparent;
-}
-
-input {
-    border-radius: 4px;
-}
-
 header {
-    background: url(../images/header-img-2.png) center / cover no-repeat;
+    height: 50px;
     background-blend-mode: multiply;
-    height: 250px;
     padding: 2vh 1rem;
     margin: -1rem -1rem 1rem;
 }
 
-h1 {
+main {
     text-align: center;
-
 }
 
-nav {
-    width: 70vh;
-    margin: auto;
-}
 
 #nav-position {
     position: fixed;
-    right: 1re;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.25rem;
-}
-
-fieldset {
-    padding: 5px;
-    margin: 50px;
+    top: 1rem;
+    left: 1.5rem;
+    letter-spacing: 1px;
+    z-index: 1;
 }
 
 .tabs {
     list-style-type: none;
     display: inline-block;
-    margin: 0 10px 0 10px;
+    margin: 10px 16px 10px 16px;
+    letter-spacing: .25rem;
+    font-weight: bold;
 }
 
 .tabs:link {
@@ -67,16 +40,68 @@ fieldset {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(29, 36, 77);
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
 a:hover {
     color: rgb(248, 206, 19);
 }
 
-#name {
-   
+h1, h2, h3 {
+    text-transform: uppercase;
+    line-height: 1.1;
 }
 
-button {
-    width: 10vh;
+h2 {
+    color: white;
+}
+
+img {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    filter: invert(1);
+    max-height: 250px;
+    max-width: 95%;
+}
+
+form {
+    width: 40%;
+    position: relative;
     margin: auto;
-    position: center;
+}
+
+fieldset {
+    text-align: center;
+    padding: 5px;
+    border: transparent;
+    border-radius: 10px;
+    margin: 50px;
+    background-color:rgb(63, 152, 224);
+    box-shadow: 0 0 8px 2px rgb(104, 104, 104);
+}
+
+input {
+    border: solid rgb(223, 223, 223);
+    border-radius: 4px;
+}
+
+.inputs {
+    margin: 8px auto;
+}
+
+textarea {
+    height: 100px;
+    width: 90%;
+    border: solid rgb(223, 223, 223);
+}
+
+footer {
+    font-size: x-small;
+    border-top: 1px dotted darkgray;
+    margin-top: 20px;
 }
