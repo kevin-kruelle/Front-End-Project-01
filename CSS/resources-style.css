@@ -23,10 +23,6 @@ footer {
     font-size: x-small;
 }
 
-h1, h2, h3 {
-    text-transform: uppercase;
-}
-
 #logo {
     filter: invert(1);
     max-height: 250px;
@@ -38,9 +34,22 @@ div {
     border-bottom: 1px dashed #9599a9;
 }
 
-h1 h2 {
-    font-weight: normal;
+h1 {
+    background:rgb(248, 206, 19);
+    width: 35%;
+    height: 30px;
+    border-radius: 3px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
     line-height: 1.1;
+}
+
+#covid-pan-header {
+    background:rgb(248, 206, 19);
+    width: 95%;
 }
 
 li {
@@ -117,8 +126,12 @@ a:hover {
     border-radius: 3px;
 }
 
-#keep-paris:hover {
-    opacity: 0.75;
+.pic-links:hover {
+    opacity: 0.90;
+}
+
+.links {
+    margin: 0 10px;
 }
 
  
