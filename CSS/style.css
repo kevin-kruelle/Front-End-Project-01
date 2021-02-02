@@ -167,6 +167,7 @@ a:hover {
      border-radius: 8px 8px 0 0;
      box-shadow: inset 0 0 10px 2px rgb(235, 247, 252);
      margin: 2rem 0;
+     box-sizing: border-box;
  }
 
  #browse-box {
@@ -178,6 +179,7 @@ a:hover {
      box-shadow: inset 0 0 5px 5px rgb (269, 269, 269);
      color: rgb(29, 36, 77);
      text-align: center;
+     box-sizing: border-box;
  }
 
  #link-image {
@@ -201,5 +203,11 @@ a:hover {
      to {
          transform:rotate(360deg);
      }
+ }
+
+ @media screen and (max-width:700px) {
+    body: {
+        margin: 5px;
+    }
  }
  
